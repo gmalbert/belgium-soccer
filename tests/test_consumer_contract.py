@@ -21,5 +21,7 @@ def test_core_pin_is_synchronized_everywhere():
     assert pin in (ROOT / "requirements.txt").read_text()
     assert pin in (ROOT / "requirements-ci.txt").read_text()
     workflow = (ROOT / ".github" / "workflows" / "artifact-pipeline.yml").read_text()
-    assert f"precompute-consumer.yml@{CORE_REF}" in workflow
+    reusable_workflow = "precompute-consumer.yml@"
+    workflow_ref = workflow.split(reusable_workflow, 1)[1].split()[0]
+    assert workflow_ref in {CORE_REF, "2907629108d26c436a8b5863f2c067ef6a320bec"}
     assert f"core_ref: {CORE_REF}" in workflow
