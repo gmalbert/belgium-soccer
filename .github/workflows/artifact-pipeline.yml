@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   build-and-validate:
-    uses: gmalbert/pitch-oracle-core/.github/workflows/precompute-consumer.yml@v1.3.27
+    uses: gmalbert/pitch-oracle-core/.github/workflows/precompute-consumer.yml@2907629108d26c436a8b5863f2c067ef6a320bec
     with:
       core_ref: v1.3.27
       league_key: belgium
