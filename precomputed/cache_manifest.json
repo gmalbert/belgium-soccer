@@ -3,12 +3,12 @@
   "core_version": "1.3.27",
   "feature_policy_version": 3,
   "league": "belgium",
-  "created_at": "2026-08-14T07:56:42.230360+00:00",
+  "created_at": "2026-08-15T07:36:38.796006+00:00",
   "artifacts": {
     "preprocessed_data": {
       "path": "precomputed/preprocessed_data.pkl",
       "bytes": 2806806,
-      "sha256": "4bfb75a109e731705eedbb779668de796f60048a2d9feec2be6e4ed2087dd8c3"
+      "sha256": "cafaac07415f559cb813f0ffb28f956a2706505a5b2c3246cb5a54266c860925"
     },
     "xgb_baseline": {
       "path": "models/xgb_baseline.pkl",
@@ -28,12 +28,12 @@
     "performance": {
       "path": "models/model_performance.pkl",
       "bytes": 1086,
-      "sha256": "794bd67ea65b7324e8b7612e5baa43d1384ae99a0ad01de84a4d3d7042b7c3cb"
+      "sha256": "de82ba97e2ff9900998e10ec47bd1c9efddd2ebda0b704aab1a2990f7c1d9fa5"
     },
     "model_metadata": {
       "path": "models/model_metadata.json",
       "bytes": 1796,
-      "sha256": "c654c34b2b05fad0ea8becf1babd73c3b4b2994cc102b40ed8ed1fb08600afac"
+      "sha256": "610afb305a88770b748c0660d2c0c5daf09354fd757dcbd264dabe67b2d1d1ce"
     },
     "model_audit": {
       "path": "precomputed/model-audit/model_ablation.json",
@@ -42,13 +42,13 @@
     },
     "upcoming_fixtures": {
       "path": "data_files/upcoming_fixtures.csv",
-      "bytes": 3885,
-      "sha256": "d4a384cd721facbbae8741f04038220f7fe800353651a46db08fbd178c578a86"
+      "bytes": 3818,
+      "sha256": "9622f8a987cc2c090c198887de27ca6c1fa08453ae23b79bb4e3810465c721d7"
     },
     "upcoming_predictions": {
       "path": "data_files/upcoming_predictions.csv",
-      "bytes": 25412,
-      "sha256": "a323038ce93cc6bf961287e4be00509733ce175a382555452d3f53df519912f6"
+      "bytes": 25003,
+      "sha256": "779b7bffc174d88b9b1d0c57800fa74f8a1b2d2207dce849a752a6d5169de5bb"
     }
   }
 }
