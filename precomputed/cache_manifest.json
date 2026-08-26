@@ -3,12 +3,12 @@
   "core_version": "1.3.27",
   "feature_policy_version": 3,
   "league": "belgium",
-  "created_at": "2026-08-25T07:38:31.110761+00:00",
+  "created_at": "2026-08-26T07:39:01.711217+00:00",
   "artifacts": {
     "preprocessed_data": {
       "path": "precomputed/preprocessed_data.pkl",
       "bytes": 2813526,
-      "sha256": "2a3e141599ef9ba5e5ae3b6232a9bba8f1eae38e5c70010fc2d1d3c63a0cf373"
+      "sha256": "151c3ecf671e13c1a2f8b35ecb5eaaf0751c132e55640ffd288fa0e28e56244f"
     },
     "xgb_baseline": {
       "path": "models/xgb_baseline.pkl",
@@ -18,7 +18,7 @@
     "ensemble": {
       "path": "models/ensemble_model.pkl",
       "bytes": 3879,
-      "sha256": "b28422f0573ff1e6e50ae5b7999d9b318e65c3bfead926458428c85cd089b9ea"
+      "sha256": "056f0656e48f5eebd1ead14e35d627b3efc7408253f2c74c862a4a406d00f412"
     },
     "optimized_xgb": {
       "path": "models/optimized_xgb.pkl",
@@ -28,17 +28,17 @@
     "performance": {
       "path": "models/model_performance.pkl",
       "bytes": 1086,
-      "sha256": "6551dab1c496347cbc9a6a9085d117edeea6684fe4b5d75b1eaf535767400d18"
+      "sha256": "eb92010e31515492343435687a9133fa35d5eac0fd3e56f0580158a0f40aae62"
     },
     "model_metadata": {
       "path": "models/model_metadata.json",
       "bytes": 1796,
-      "sha256": "59604902839f97e9f3db8fd06bedafae3af5af515d84d8722649ea3bfb9ca693"
+      "sha256": "a1063ec06993282d83b18e6c0d194a21067b96693df4440b34c213acd757de7f"
     },
     "model_audit": {
       "path": "precomputed/model-audit/model_ablation.json",
       "bytes": 2367,
-      "sha256": "9e6684758481ef3096838245a85b64525c6fc55a3a3ef17c913b44553aedfc2f"
+      "sha256": "57a9d5a310d3189b4395cb253484be55d4f409330337fdb201086d52d79c016c"
     },
     "upcoming_fixtures": {
       "path": "data_files/upcoming_fixtures.csv",
@@ -47,8 +47,8 @@
     },
     "upcoming_predictions": {
       "path": "data_files/upcoming_predictions.csv",
-      "bytes": 23150,
-      "sha256": "bc6dc48d3b1d731957790b9e2ffcf73a9880df77e1898be7225faa1b7afa191f"
+      "bytes": 22992,
+      "sha256": "a5321efa9b426696fca07a6f608c28768b2618feffbd14f6cc404b22df372cc7"
     }
   }
 }
