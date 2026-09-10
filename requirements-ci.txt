@@ -1,7 +1,7 @@
 # Keep CI on the same lightweight CPU-only PyTorch build as the deployment.
 --index-url https://pypi.org/simple
 --extra-index-url https://download.pytorch.org/whl/cpu
-pitch-oracle-core[consumer] @ git+https://github.com/gmalbert/pitch-oracle-core.git@4b0a7ed36324c52a6e9d968764d82c336ec301df
+pitch-oracle-core[consumer] @ git+https://github.com/gmalbert/pitch-oracle-core.git@eb7750c5fd033213051511723e35ec253c3f1ca8
 torch==2.6.0+cpu
 shap==0.52.0
 numba==0.66.0
