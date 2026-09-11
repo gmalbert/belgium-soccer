@@ -18,13 +18,33 @@ from pitch_oracle_core.cache import validate_cache
 
 
 def production_candidate() -> str:
-    """Return the audit-selected production model from the ablation report."""
+    """Return and validate the audit-selected production model."""
     report = json.loads(
         (ROOT / "precomputed" / "model-audit" / "model_ablation.json").read_text(encoding="utf-8")
     )
-    candidate = report.get("release_gate", {}).get("production_candidate")
+    gate = report.get("release_gate", {})
+    candidate = gate.get("production_candidate")
     if candidate not in ("no_odds", "poisson"):
         raise SystemExit(f"Model audit did not select a production candidate; got {candidate!r}")
+    if gate.get("passed") is not True:
+        raise SystemExit("Model audit release gate did not pass")
+
+    ablation = {
+        item.get("candidate"): item.get("metrics", {})
+        for item in report.get("ablation", [])
+        if isinstance(item, dict)
+    }
+    baseline = ablation.get("class_prior_baseline")
+    production = ablation.get(candidate)
+    if not isinstance(baseline, dict) or not isinstance(production, dict):
+        raise SystemExit(f"Model audit lacks metrics for production candidate {candidate!r}")
+    if (
+        float(production.get("log_loss", math.inf)) >= float(baseline.get("log_loss", -math.inf))
+        or float(production.get("brier_score", math.inf)) >= float(baseline.get("brier_score", -math.inf))
+    ):
+        raise SystemExit(
+            f"Model audit selected {candidate!r} without beating the class-prior baseline"
+        )
     return candidate
 
 
@@ -54,22 +74,6 @@ def main() -> None:
         if not (0.0 <= accuracy <= 1.0 and math.isfinite(log_loss) and log_loss < 2.0):
             raise SystemExit(f"Implausible chronological metrics for {name}: {performance[name]}")
     production_name = {"no_odds": "ensemble", "poisson": "poisson"}[candidate]
-    production = performance[production_name]
-    baseline = performance["class_prior_baseline"]
-    if candidate == "poisson":
-        production_log_loss = float(production["outcome_log_loss"])
-        production_brier = float(production["outcome_brier_score"])
-    else:
-        production_log_loss = float(production["log_loss"])
-        production_brier = float(production["brier_score"])
-    if (
-        production_log_loss >= float(baseline["log_loss"])
-        or production_brier >= float(baseline["brier_score"])
-    ):
-        raise SystemExit(
-            f"Production {production_name} model does not beat the class-prior baseline "
-            "on log loss and Brier score"
-        )
     poisson_accuracy = float(performance["poisson"]["outcome_acc"])
     if not 0.0 <= poisson_accuracy <= 1.0:
         raise SystemExit(f"Invalid Poisson outcome accuracy: {poisson_accuracy}")
