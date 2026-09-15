@@ -45,11 +45,11 @@
   ],
   "feature_count": 40,
   "split_strategy": "chronological_train_calibration_test",
-  "train_rows": 770,
-  "calibration_rows": 257,
-  "test_rows": 259,
+  "train_rows": 775,
+  "calibration_rows": 260,
+  "test_rows": 260,
   "calibration_method": "temperature_scaling",
   "production_model": "regularized_multinomial_logistic_regression",
   "release_gate": "beats_training_class_prior_on_log_loss_and_brier",
-  "generated_at": "2026-09-14T07:45:03.093176+00:00"
+  "generated_at": "2026-09-15T07:36:15.687619+00:00"
 }
