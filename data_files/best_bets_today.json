@@ -1,8 +1,8 @@
 {
   "meta": {
     "sport": "belgium",
-    "generated_at": "2026-09-15T07:36:25.891937+00:00",
-    "model_version": "core-1.4.0",
+    "generated_at": "2026-09-17T11:57:47.555265+00:00",
+    "model_version": "core-1.4.3",
     "season": "2026",
     "notes": "No odds artifact; best bets require market prices"
   },
