@@ -14,9 +14,9 @@ concurrency:
 
 jobs:
   build-and-validate:
-    uses: gmalbert/pitch-oracle-core/.github/workflows/precompute-consumer.yml@dd2e9a2c63405724ecc12ec5444eb774181be0cb
+    uses: gmalbert/pitch-oracle-core/.github/workflows/precompute-consumer.yml@f9e3fb266d231a902bab4c934b599d9120e1eb44
     with:
-      core_ref: dd2e9a2c63405724ecc12ec5444eb774181be0cb
+      core_ref: f9e3fb266d231a902bab4c934b599d9120e1eb44
       league_key: belgium
       data_command: >-
         python -m combine_raw_data &&
