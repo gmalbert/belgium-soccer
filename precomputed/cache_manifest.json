@@ -3,7 +3,7 @@
   "core_version": "1.5.0",
   "feature_policy_version": 4,
   "league": "belgium",
-  "created_at": "2026-10-02T16:16:20.016521+00:00",
+  "created_at": "2026-10-02T16:41:23.071078+00:00",
   "artifacts": {
     "preprocessed_data": {
       "path": "precomputed/preprocessed_data.pkl",
@@ -32,23 +32,23 @@
     },
     "model_metadata": {
       "path": "models/model_metadata.json",
-      "bytes": 1273,
-      "sha256": "dfcf67c2b027d3094d1143d015fb35a281c83115102c824dc1dd39b735c2b8bf"
+      "bytes": 1223,
+      "sha256": "6fe77dade5a8eae4324922226ca98bbca62b0b622c8839ccb8ea479c3adc8b7c"
     },
     "model_audit": {
       "path": "precomputed/model-audit/model_ablation.json",
-      "bytes": 2371,
-      "sha256": "7ce779b42a86470e50ff4cc083c842eff6568c4adedfe122074437e157df3f31"
+      "bytes": 2292,
+      "sha256": "a22b6fb95009e832ae1c1641c8445cc7ea34b600eb9a260b889a3b1f927b3a25"
     },
     "upcoming_fixtures": {
       "path": "data_files/upcoming_fixtures.csv",
-      "bytes": 11913,
-      "sha256": "1f075da9a0c26f3be6e326cdd2fbb337f47632182b45d7007931d09ff4121336"
+      "bytes": 11858,
+      "sha256": "e8a93dc0aa540e4a4c7c6da6713a80b6d86aea65035c70537069238a239403bc"
     },
     "upcoming_predictions": {
       "path": "data_files/upcoming_predictions.csv",
-      "bytes": 38474,
-      "sha256": "78362269f654a21accbd15d5b1703eede42b11c6d23accb6567bd8afdd3f0a3d"
+      "bytes": 38419,
+      "sha256": "4696ff313579ce794a00d90aded52309e46ae6d8f0f814b0603488e4cd4143f3"
     },
     "dixon_coles_goal_model": {
       "path": "models/dixon_coles_goal_model.pkl",
@@ -57,13 +57,13 @@
     },
     "dixon_coles_goal_model_metadata": {
       "path": "models/dixon_coles_goal_model.json",
-      "bytes": 2054,
-      "sha256": "01860751594208a593eb9a32bde943719658645391895cebb1a553a796cba9fa"
+      "bytes": 1994,
+      "sha256": "c38e0aca334e1aa99eaa4308766071c35e0339c2b8709ebcdc015ee7e6a28db2"
     },
     "goal_model_metrics": {
       "path": "models/goal_model_metrics.json",
-      "bytes": 189,
-      "sha256": "561e7ce9f2b8670d5ca3a1ac833064d263195f9931f708550c0d481530808723"
+      "bytes": 181,
+      "sha256": "76ab0e79a20bec6745c3370b94a0485b084ce9f3d9f6ff486ced8d581802d621"
     },
     "pitchapi_response_revisions": {
       "path": "data_files/pitchapi_response_revisions.parquet",
