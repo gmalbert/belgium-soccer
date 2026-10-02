@@ -1,0 +1,174 @@
+{
+  "schema_version": 2,
+  "core_version": "1.5.0",
+  "feature_policy_version": 4,
+  "league": "belgium",
+  "created_at": "2026-10-02T16:16:20.016521+00:00",
+  "artifacts": {
+    "preprocessed_data": {
+      "path": "precomputed/preprocessed_data.pkl",
+      "bytes": 5926938,
+      "sha256": "05a3ca60e00b38d1091c4fa34997269905a9a2eea7f7334171544fc7dcd031ce"
+    },
+    "xgb_baseline": {
+      "path": "models/xgb_baseline.pkl",
+      "bytes": 654351,
+      "sha256": "afabe0011cddde60cf6082c59397de29c35bb8d95afceea5469cbffa4b444119"
+    },
+    "ensemble": {
+      "path": "models/ensemble_model.pkl",
+      "bytes": 2967,
+      "sha256": "7f7296cdd6d93f6c2294b22b828b6d4f8d26a10c25667f35e5148af73a4d5885"
+    },
+    "optimized_xgb": {
+      "path": "models/optimized_xgb.pkl",
+      "bytes": 1233635,
+      "sha256": "cc5f4ace337787383d14dcc680ea66be65e80a7538e623bc2e17a4cd4ea78228"
+    },
+    "performance": {
+      "path": "models/model_performance.pkl",
+      "bytes": 1212,
+      "sha256": "903c9df41bce86c23f570f8289846f82b6e15d29c2f4969302b5ec708a8ff87f"
+    },
+    "model_metadata": {
+      "path": "models/model_metadata.json",
+      "bytes": 1273,
+      "sha256": "dfcf67c2b027d3094d1143d015fb35a281c83115102c824dc1dd39b735c2b8bf"
+    },
+    "model_audit": {
+      "path": "precomputed/model-audit/model_ablation.json",
+      "bytes": 2371,
+      "sha256": "7ce779b42a86470e50ff4cc083c842eff6568c4adedfe122074437e157df3f31"
+    },
+    "upcoming_fixtures": {
+      "path": "data_files/upcoming_fixtures.csv",
+      "bytes": 11913,
+      "sha256": "1f075da9a0c26f3be6e326cdd2fbb337f47632182b45d7007931d09ff4121336"
+    },
+    "upcoming_predictions": {
+      "path": "data_files/upcoming_predictions.csv",
+      "bytes": 38474,
+      "sha256": "78362269f654a21accbd15d5b1703eede42b11c6d23accb6567bd8afdd3f0a3d"
+    },
+    "dixon_coles_goal_model": {
+      "path": "models/dixon_coles_goal_model.pkl",
+      "bytes": 240344,
+      "sha256": "eb53ccc44e523d2427910f93a5c59b9075703e3e16342ddfa9430140cac22631"
+    },
+    "dixon_coles_goal_model_metadata": {
+      "path": "models/dixon_coles_goal_model.json",
+      "bytes": 2054,
+      "sha256": "01860751594208a593eb9a32bde943719658645391895cebb1a553a796cba9fa"
+    },
+    "goal_model_metrics": {
+      "path": "models/goal_model_metrics.json",
+      "bytes": 189,
+      "sha256": "561e7ce9f2b8670d5ca3a1ac833064d263195f9931f708550c0d481530808723"
+    },
+    "pitchapi_response_revisions": {
+      "path": "data_files/pitchapi_response_revisions.parquet",
+      "sha256": "3de928e2b6269ae00dfb90c2e0a460c3bd34041cc3935bbc8339e9c35dfee54b",
+      "bytes": 5959,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_upcoming_predictions": {
+      "path": "data_files/pitchapi_upcoming_predictions.csv",
+      "sha256": "2905dd31a2b3d93ded2474cee0f84dd34ebe450250dd4e398c7cbff45a93d9a8",
+      "bytes": 212,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_matches": {
+      "path": "data_files/pitchapi_matches.csv",
+      "sha256": "5ff00bbc1bf371de0b4b2556117f5edd60a390147a1f077f1cd2a25638af1592",
+      "bytes": 64276,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_shots": {
+      "path": "data_files/pitchapi_shots.parquet",
+      "sha256": "6173aa2d1916a81275ff524c1a0edf631815e01254936aaf487070ba23f61113",
+      "bytes": 44413,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_match_shot_features": {
+      "path": "data_files/pitchapi_match_shot_features.csv",
+      "sha256": "b494a40f68b3fefd9398e5b744ec6db6396bb6b22adc4e2633d3b8339bb0ff96",
+      "bytes": 4360,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_advanced_team": {
+      "path": "data_files/pitchapi_advanced_team.parquet",
+      "sha256": "f8b94f906fcb626ce9dc165d10a8187ce6a432baa6f182f19efeee3797520240",
+      "bytes": 44621,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_player_match": {
+      "path": "data_files/pitchapi_player_match.parquet",
+      "sha256": "1796a99a83667609838803c1f9d216da00d4b2cb8afae0407d5451978ece5050",
+      "bytes": 92816,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_lineup_snapshots": {
+      "path": "data_files/pitchapi_lineup_snapshots.parquet",
+      "sha256": "2cf34e6fec39fff018b2bb53aaf4cb39d6d6b2a95d0cbd97f238d17415d477c0",
+      "bytes": 21198,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_momentum": {
+      "path": "data_files/pitchapi_momentum.parquet",
+      "sha256": "6c4442c39436333d84e5e94959cc72b8bbfeb934cfc2f7ddc9d8249963dbffc4",
+      "bytes": 7537,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_network": {
+      "path": "data_files/pitchapi_network.parquet",
+      "sha256": "4378a377e7a9e7a4640ef29a853dfb434d8a1ef0a6d0a546b51958229fb98676",
+      "bytes": 41952,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_heatmaps": {
+      "path": "data_files/pitchapi_heatmaps.parquet",
+      "sha256": "99e1930bbbb7c74bc8c4b610178a31feff585259696589de4237d631a1b42c84",
+      "bytes": 77041,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_health": {
+      "path": "data_files/pitchapi_health.json",
+      "sha256": "d602c06a8b34c13e414c894676fe54b45820e27763e4d7974ebb9c0c04eba53b",
+      "bytes": 13895,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_fixture_audit": {
+      "path": "data_files/pitchapi_fixture_audit.csv",
+      "sha256": "2368ce8f56c30ef0b5453e069b28594353c3917e56717b9569bd0471e72fb577",
+      "bytes": 22496,
+      "required": false,
+      "schema_version": 2
+    },
+    "pitchapi_ablation": {
+      "path": "data_files/pitchapi_ablation.json",
+      "sha256": "dae0793f1de7fd4d57356c83d4b86c30faf2ef96a4c19feec9786079576ae920",
+      "bytes": 57136,
+      "required": false,
+      "schema_version": 2
+    }
+  },
+  "pitchapi": {
+    "integration_schema_version": 2,
+    "feature_policy_version": 4,
+    "league_key": "belgium",
+    "enabled_families": [],
+    "evidence_id": null
+  }
+}
