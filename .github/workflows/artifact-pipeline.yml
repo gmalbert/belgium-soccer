@@ -9,14 +9,14 @@ permissions:
   contents: write
 
 concurrency:
-  group: belgium-artifact-pipeline
+  group: ${{ github.repository }}-runtime-artifacts
   cancel-in-progress: false
 
 jobs:
   build-and-validate:
-    uses: gmalbert/pitch-oracle-core/.github/workflows/precompute-consumer.yml@947f9d7d0ea44c36ce3625b50d47ce41bb31b9af
+    uses: gmalbert/pitch-oracle-core/.github/workflows/precompute-consumer.yml@e31c5b9703ef05bad486fc348894fedd64655033
     with:
-      core_ref: 947f9d7d0ea44c36ce3625b50d47ce41bb31b9af
+      core_ref: e31c5b9703ef05bad486fc348894fedd64655033
       league_key: belgium
       data_command: >-
         python -m combine_raw_data &&
