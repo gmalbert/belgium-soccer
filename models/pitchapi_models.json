@@ -1,0 +1,1 @@
+{"configuration": {"enabled_families": [], "evidence_id": null, "league_key": "belgium", "version": 1}, "models": {"baseline": {"feature_count": 36, "fingerprint": "5fede452eb76f05497a1807145c065c95dd3bc41594e4d1b9743f86c0923463e", "model_id": "pitchapi-baseline-v1"}}, "schema_version": 1}

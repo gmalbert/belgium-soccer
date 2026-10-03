@@ -1,11 +1,9 @@
 {
-  "feature_policy_version": 3,
+  "feature_policy_version": 4,
   "feature_set": "no_odds",
   "feature_names": [
     "Unnamed: 119",
     "Unnamed: 120",
-    "HxG",
-    "AxG",
     "PPH",
     "PPD",
     "PPA",
@@ -27,7 +25,6 @@
     "home_clean_sheet_l10",
     "home_shots_for_ewm10",
     "home_shots_against_ewm10",
-    "home_shot_quality_ewm10",
     "away_history_n",
     "away_rest_days",
     "away_points_l5",
@@ -37,13 +34,12 @@
     "away_clean_sheet_l10",
     "away_shots_for_ewm10",
     "away_shots_against_ewm10",
-    "away_shot_quality_ewm10",
     "HomeTeamPointsLast5",
     "AwayTeamPointsLast5",
     "HomeRestDays",
     "AwayRestDays"
   ],
-  "feature_count": 40,
+  "feature_count": 36,
   "split_strategy": "chronological_train_calibration_test",
   "train_rows": 782,
   "calibration_rows": 261,
@@ -51,5 +47,5 @@
   "calibration_method": "temperature_scaling",
   "production_model": "regularized_multinomial_logistic_regression",
   "release_gate": "beats_training_class_prior_on_log_loss_and_brier",
-  "generated_at": "2026-10-02T14:00:43.668527+00:00"
+  "generated_at": "2026-10-02T15:28:35.551476+00:00"
 }
