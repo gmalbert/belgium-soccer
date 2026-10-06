@@ -3,12 +3,12 @@
   "core_version": "1.4.3",
   "feature_policy_version": 3,
   "league": "belgium",
-  "created_at": "2026-10-05T16:14:49.961058+00:00",
+  "created_at": "2026-10-06T14:20:43.617850+00:00",
   "artifacts": {
     "preprocessed_data": {
       "path": "precomputed/preprocessed_data.pkl",
       "bytes": 2365557,
-      "sha256": "2c8d473b39b7fddd500cb514fb73c4974671d88b2ba90dd10093e68cec04b303"
+      "sha256": "e0b962672687b9fb6507d49dc70dc6d4897b7db533b0e36ae831f642143a81c2"
     },
     "xgb_baseline": {
       "path": "models/xgb_baseline.pkl",
@@ -28,12 +28,12 @@
     "performance": {
       "path": "models/model_performance.pkl",
       "bytes": 1212,
-      "sha256": "bdef7aa1ee4a72f8386e348039c816d6de404ffa0cb7c8a004bacde759ea735b"
+      "sha256": "c063242e65d4af14abbe1a8a40020fc583ff5e9131c8e42100949742971c7c4a"
     },
     "model_metadata": {
       "path": "models/model_metadata.json",
       "bytes": 1307,
-      "sha256": "67e87db72c7ae579d09dd48ab4b3b1dfbb644fba5ba815543c76c36527dda623"
+      "sha256": "5b0fbed426fbf4a487fac5b9e6550d02b670ddeda42c0e66509f03d821c711de"
     },
     "model_audit": {
       "path": "precomputed/model-audit/model_ablation.json",
@@ -43,12 +43,12 @@
     "upcoming_fixtures": {
       "path": "data_files/upcoming_fixtures.csv",
       "bytes": 11858,
-      "sha256": "f08da35b62501b990503a506c4ba8fefe9d8cbd76be4e73cbe425f805e716fe5"
+      "sha256": "f5e3568bcfcf6e2fa00b447164515a8bbfae8345d90f98788e2fe4b091fae7a0"
     },
     "upcoming_predictions": {
       "path": "data_files/upcoming_predictions.csv",
       "bytes": 26225,
-      "sha256": "f0b1d3729b11f239c9d360ce89944ded8385677c422239ae09dc76b089d75da3"
+      "sha256": "eb575cc61c64d4240d087d8bbe09b3895fb1b154e85b4ab54cb235cf972fe0c2"
     },
     "dixon_coles_goal_model": {
       "path": "models/dixon_coles_goal_model.pkl",
@@ -58,7 +58,7 @@
     "dixon_coles_goal_model_metadata": {
       "path": "models/dixon_coles_goal_model.json",
       "bytes": 1994,
-      "sha256": "b2d94ca02045a0e10b182befaec82f698828f31352ed473a1d702e1059269b93"
+      "sha256": "8b155c074818d75d35fe8ef00a28b89b00c543dfc4296f4d77f25834235f3375"
     },
     "goal_model_metrics": {
       "path": "models/goal_model_metrics.json",
