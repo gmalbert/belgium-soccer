@@ -3,12 +3,12 @@
   "core_version": "1.4.3",
   "feature_policy_version": 3,
   "league": "belgium",
-  "created_at": "2026-10-19T14:49:46.560142+00:00",
+  "created_at": "2026-10-20T12:51:40.585930+00:00",
   "artifacts": {
     "preprocessed_data": {
       "path": "precomputed/preprocessed_data.pkl",
       "bytes": 2368509,
-      "sha256": "e2e92329659696bae1d237a47c756981b7b2df667019afeed7950f6eb8eeb298"
+      "sha256": "bc29b15c558da5985bce9d8e1d2ab5db5dc4cfafdaca207b9a3217409bfc202d"
     },
     "xgb_baseline": {
       "path": "models/xgb_baseline.pkl",
@@ -18,7 +18,7 @@
     "ensemble": {
       "path": "models/ensemble_model.pkl",
       "bytes": 3159,
-      "sha256": "442a4b09912e63962cb3a2548270d6b313d3f10d6be92d63a500a3106bd36f6d"
+      "sha256": "905e3666be6cf56af1963d355181935d112201d96f945762a6eefff91fe8e846"
     },
     "optimized_xgb": {
       "path": "models/optimized_xgb.pkl",
@@ -28,42 +28,42 @@
     "performance": {
       "path": "models/model_performance.pkl",
       "bytes": 1212,
-      "sha256": "ef67de04b60863de587553ff69097dfe6fbe3e57e0a6c2cfde32eb7b1f8157ab"
+      "sha256": "b423f70256f2bbbec272d403056a0e04f4aed8c1c34c9826b2c77a5eeb5da807"
     },
     "model_metadata": {
       "path": "models/model_metadata.json",
       "bytes": 1307,
-      "sha256": "b79036fd5111bfd956fb8a2e5ac7aaa0e6e27516c441d9cacf954781e608b8ab"
+      "sha256": "cc2e9ea2233d0d137c5c317afab46342226971cdeae3b64ce8e2759d17feb248"
     },
     "model_audit": {
       "path": "precomputed/model-audit/model_ablation.json",
       "bytes": 2370,
-      "sha256": "15c728a3417e499ff3541aaa325389a3dc88defcbe27ed46458c97ce1b8bac6f"
+      "sha256": "e45c50bff8bb07ad939737299bd8095cb06bd7ba0c00993b8ca2c14cdd64edf5"
     },
     "upcoming_fixtures": {
       "path": "data_files/upcoming_fixtures.csv",
-      "bytes": 12066,
-      "sha256": "31348110b07d8f5cf7e8e7a3d4ec35a47fb74ba51f780073b7e42258f2d98631"
+      "bytes": 12940,
+      "sha256": "15d63d087b90e88c168ac4b7c3f3bc1399f2c8f5fa358b37ba71ba288351c20c"
     },
     "upcoming_predictions": {
       "path": "data_files/upcoming_predictions.csv",
-      "bytes": 26717,
-      "sha256": "7172beec98f76c23738046afaf4ccc184e0b24ea55842340c4bbe0396604eb3e"
+      "bytes": 28611,
+      "sha256": "120650fd9b430d8289b0ef478f6069fcf8563118e2f1198d3bbec10b3f1ff966"
     },
     "dixon_coles_goal_model": {
       "path": "models/dixon_coles_goal_model.pkl",
       "bytes": 268224,
-      "sha256": "fcd1c584988e56857cbd54c70a253b6b3fbba95628eba2cf3fba4c25f6eca0e2"
+      "sha256": "152eae6c29184dd6af61588ad4bbf2606f65e51f4a44f28eb83516e6efc59019"
     },
     "dixon_coles_goal_model_metadata": {
       "path": "models/dixon_coles_goal_model.json",
       "bytes": 1996,
-      "sha256": "af23830f9e1ac34bc256c38efc6899aee938000e1f63e03fb19b9f782b24c867"
+      "sha256": "f4a3ec39cfecf8458989c20e0998052fbbd106ac5f1db900474460d28575598d"
     },
     "goal_model_metrics": {
       "path": "models/goal_model_metrics.json",
       "bytes": 182,
-      "sha256": "1ac241e0874d6d20387a830f25305c0384fa252194a162aaf362022c2b27ef35"
+      "sha256": "4a481418054f6330819251499f866579bcf5fa8268ee0f34a5b77c8c93d1ed69"
     }
   }
 }
