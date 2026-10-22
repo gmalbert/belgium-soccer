@@ -192,7 +192,7 @@ home_goal_diff_l10,no_odds,float64,0.009900990099009901,73
 home_clean_sheet_l10,no_odds,float64,0.009900990099009901,22
 home_shots_for_ewm10,no_odds,float64,0.009900990099009901,1295
 home_shots_against_ewm10,no_odds,float64,0.009900990099009901,1295
-home_shot_quality_ewm10,no_odds,float64,0.009900990099009901,1293
+home_shot_quality_ewm10,no_odds,float64,0.009900990099009901,1294
 away_history_n,no_odds,int64,0.0,163
 away_rest_days,no_odds,float64,0.008377760853008377,265
 away_points_l5,no_odds,float64,0.008377760853008377,15
@@ -202,7 +202,7 @@ away_goal_diff_l10,no_odds,float64,0.008377760853008377,82
 away_clean_sheet_l10,no_odds,float64,0.008377760853008377,23
 away_shots_for_ewm10,no_odds,float64,0.008377760853008377,1297
 away_shots_against_ewm10,no_odds,float64,0.008377760853008377,1297
-away_shot_quality_ewm10,no_odds,float64,0.008377760853008377,1291
+away_shot_quality_ewm10,no_odds,float64,0.008377760853008377,1292
 Season,excluded,str,0.0,6
 HomeTeamPointsLast5,no_odds,float64,0.009900990099009901,15
 AwayTeamPointsLast5,no_odds,float64,0.008377760853008377,15
