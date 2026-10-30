@@ -1,6 +1,10 @@
 name: Belgian Pro League artifact pipeline
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/artifact-pipeline.yml
   workflow_dispatch:
   schedule:
     - cron: "20 7 * * *"
