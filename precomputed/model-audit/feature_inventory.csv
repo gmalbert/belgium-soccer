@@ -3,7 +3,7 @@ Division,excluded,str,0.0,1
 MatchDate,excluded,str,0.0,490
 KickoffTime,excluded,str,0.0,12
 HomeTeam,excluded,str,0.0,24
-AwayTeam,excluded,str,0.0,25
+AwayTeam,excluded,str,0.0,24
 FullTimeHomeGoals,excluded,int64,0.0,8
 FullTimeAwayGoals,excluded,int64,0.0,7
 FullTimeResult,excluded,str,0.0,3

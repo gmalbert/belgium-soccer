@@ -68,11 +68,11 @@
       "test_rows": 658,
       "metrics": {
         "accuracy": 0.4817629179331307,
-        "log_loss": 1.0348594007754275,
-        "brier_score": 0.6215139969199489,
-        "calibration_error": 0.09801690450801984,
+        "log_loss": 1.035270064050285,
+        "brier_score": 0.6218210049790214,
+        "calibration_error": 0.09968239927392879,
         "draw_recall": 0.005847953216374269,
-        "mean_confidence": 0.5377095066665702,
+        "mean_confidence": 0.5375249868126816,
         "decisive_lean_rate": 0.41185410334346506
       }
     }
