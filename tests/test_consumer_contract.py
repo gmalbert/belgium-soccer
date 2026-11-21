@@ -5,7 +5,7 @@ from pitch_oracle_core import __version__
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CORE_REF = "799e4fb9761426a677db6ad61841a824a990eba3"
+CORE_REF = "1a749a099776e8470dff971f8d77084869e0e5ec"
 CORE_VERSION = "1.4.3"
 
 
